@@ -1,21 +1,28 @@
 # P10: Portfolio Header and Footer with Advanced Flexbox
 
 ## Aim
-To arrange a portfolio header and multi-column footer using CSS Flexbox.
+Build a portfolio page header and footer using Flexbox alignment, spacing, and wrapping.
+
+## Concepts
+- `display: flex` creates a flex container.
+- `justify-content: space-between` separates groups of items.
+- `align-items: center` aligns items across the cross axis.
+- `gap` provides consistent spacing.
+- `flex-wrap` allows items to move to a new line when needed.
+- Media queries adapt the layout to smaller screens.
+
+## Files
+- `index.html` — portfolio header, content, and footer.
+- `style.css` — Flexbox layout and responsive styling.
 
 ## Procedure
-1. Create the `P10` folder and add the HTML and CSS files.
-2. Create a header containing a logo, navigation links, and an action link.
-3. Use Flexbox to align the header items horizontally.
-4. Build a footer with separate information groups.
-5. Use `justify-content`, `align-items`, `gap`, `flex-wrap`, and `flex-direction` to control alignment and wrapping.
-6. Resize the browser and check the responsive rules.
-
-## Concepts used
-Flex container, main-axis and cross-axis alignment, spacing with `gap`, wrapping, nested Flexbox, and responsive layout.
+1. Save both files in a folder named `P10`.
+2. Open `index.html` in a browser.
+3. Observe the logo, navigation links, and action link in the header.
+4. Resize the browser to see the header and footer adjust.
 
 ## Expected result
-A portfolio layout with an aligned header, a central introduction, and a footer containing three organised groups.
+A clean portfolio page with a flexible header and a footer whose content is arranged in separate groups.
 
 ## Conclusion
-I used advanced Flexbox properties to arrange header and footer content and adjusted the layout for smaller screens.
+I practised using Flexbox to align and distribute elements in a portfolio header and footer.
