@@ -1,20 +1,26 @@
 # P8: Sticky Navbar and Card Overlay Using CSS Positioning
 
 ## Aim
-To make a navigation bar remain visible at the top while scrolling and position a label over a card.
+Create a page with a navigation bar that stays at the top while scrolling and cards with labels positioned over their image areas.
+
+## Concepts
+- `position: sticky` keeps the navigation bar visible after it reaches the top.
+- `position: relative` creates the positioning context for an element.
+- `position: absolute` places a label at a chosen position inside its card.
+- `z-index` controls the stacking order.
+
+## Files
+- `index.html` — navigation and card content.
+- `style.css` — sticky and overlay positioning.
 
 ## Procedure
-1. Create the `P8` folder and add the HTML and CSS files.
-2. In CSS, apply `position: sticky` and `top: 0` to the navigation header.
-3. Give each card `position: relative` so it becomes the containing block for its label.
-4. Give the label `position: absolute` and set its top and right offsets.
-5. Open the page and scroll to observe the sticky header.
-
-## Concepts used
-Sticky positioning, relative positioning, absolute positioning, stacking order with `z-index`, Flexbox, and responsive media queries.
+1. Save both files in a folder named `P8`.
+2. Open `index.html` in a browser.
+3. Scroll down to check that the navbar remains at the top.
+4. Observe the small labels placed over the cards.
 
 ## Expected result
-The navigation stays at the top during scrolling, and each card has a label placed over its top-right corner.
+A scrolling page with a sticky navbar and card labels positioned over their cards.
 
 ## Conclusion
-I practised CSS positioning by combining a sticky navigation bar with absolutely positioned labels inside relatively positioned cards.
+I practised sticky, relative, and absolute positioning and understood how a positioned parent can contain an overlay.
