@@ -8,17 +8,28 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#">Flex Practice</a>
-    <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+    <a class="brand" href="#home">Flex Practice</a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
+
   <main id="home">
-    <section class="intro"><h1>Cards that adjust to the screen</h1><p>Resize the browser window to see the Flexbox layout wrap.</p></section>
-    <section id="work" class="card-grid">
+    <section class="intro">
+      <p class="eyebrow">Responsive layout practice</p>
+      <h1>Cards that adjust to the screen</h1>
+      <p>Resize the browser window to see the Flexbox layout wrap.</p>
+    </section>
+
+    <section id="work" class="card-grid" aria-label="Learning topics">
       <article class="card"><span>01</span><h2>HTML</h2><p>Building the structure of a page.</p></article>
-      <article class="card"><span>02</span><h2>CSS</h2><p>Adding styles, spacing and colours.</p></article>
+      <article class="card"><span>02</span><h2>CSS</h2><p>Adding styles, spacing, and colours.</p></article>
       <article class="card"><span>03</span><h2>Flexbox</h2><p>Arranging items along a flexible axis.</p></article>
     </section>
   </main>
+
   <footer id="contact">A responsive layout using Flexbox.</footer>
 </body>
 </html>
