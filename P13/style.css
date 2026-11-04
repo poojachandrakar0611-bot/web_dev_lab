@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #25324a; background: #f5f7fb; line-height: 1.6; }
+main { max-width: 950px; margin: auto; padding: 30px 22px; }
+nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0; }
+nav a { padding: 8px 13px; background: #e5eaf6; border-radius: 6px; color: #344e86; text-decoration: none; }
+section { margin: 25px 0; }
+.flex-list { display: flex; flex-wrap: wrap; gap: 14px; }
+.flex-list article, .grid-list article { padding: 20px; background: white; border: 1px solid #e1e5ee; border-radius: 9px; }
+.flex-list article { flex: 1 1 180px; }
+.grid-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
