@@ -1,21 +1,28 @@
 # P9: Responsive Navbar and Card Grid Using Flexbox
 
 ## Aim
-To build a responsive navigation bar and card layout using CSS Flexbox.
+Create a responsive navigation bar and a card layout using CSS Flexbox.
+
+## Concepts
+- `display: flex` creates a flex container.
+- `justify-content` distributes items along the main axis.
+- `align-items` aligns items along the cross axis.
+- `flex-wrap: wrap` allows items to move to another row.
+- `gap` adds space between flex items.
+- A media query adjusts the layout for narrow screens.
+
+## Files
+- `index.html` — navbar and sample cards.
+- `style.css` — Flexbox and responsive rules.
 
 ## Procedure
-1. Create the `P9` folder and add `index.html` and `style.css`.
-2. Link the stylesheet from the HTML document.
-3. Set the header and navigation to use Flexbox.
-4. Set the card container to `display: flex`, enable wrapping, and add a gap.
-5. Give cards a flexible basis so they can grow and wrap.
-6. Resize the browser to test the layout at different widths.
-
-## Concepts used
-`display: flex`, `justify-content`, `align-items`, `flex-wrap`, `gap`, flexible sizing, and media queries.
+1. Save the files in a folder named `P9`.
+2. Open the HTML file in a browser.
+3. Resize the browser window to see the cards wrap.
+4. Check that the navbar changes to a vertical arrangement on a small screen.
 
 ## Expected result
-A navigation bar and card row that rearrange cleanly when the browser becomes narrow.
+A flexible card row that wraps to fit the available width and a navbar that adapts to smaller screens.
 
 ## Conclusion
-I used Flexbox and a media query to create a responsive page layout that adjusts to different screen sizes.
+I used Flexbox wrapping and media queries to make a navigation bar and card grid responsive.
