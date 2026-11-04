@@ -3,29 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sticky Navigation and Card Overlay</title>
+  <title>Sticky Navbar and Card Overlay</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="navbar">
-    <a href="#home" class="brand">Layout Lab</a>
-    <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#cards">Cards</a><a href="#about">About</a></nav>
+    <a class="brand" href="#home">Layout Lab</a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#cards">Cards</a>
+      <a href="#about">About</a>
+    </nav>
   </header>
+
   <main id="home">
-    <section class="intro"><h1>Positioning in CSS</h1><p>The navigation stays at the top while scrolling. The label on the card is placed over the card using absolute positioning.</p></section>
-    <section id="cards" class="cards">
+    <section class="intro">
+      <p class="eyebrow">CSS positioning practice</p>
+      <h1>Sticky navigation and card overlays</h1>
+      <p>The navigation stays at the top while scrolling. Each label is positioned over its card.</p>
+    </section>
+
+    <section id="cards" class="cards" aria-label="Example cards">
       <article class="card">
-        <div class="card-image" role="img" aria-label="Abstract blue colour block"></div>
+        <div class="card-image image-one" role="img" aria-label="Blue abstract colour block"></div>
         <span class="card-label">Featured</span>
-        <div class="card-content"><h2>First card</h2><p>A card with a small overlay label.</p></div>
+        <div class="card-content">
+          <h2>First card</h2>
+          <p>A label placed over a card using absolute positioning.</p>
+        </div>
       </article>
       <article class="card">
-        <div class="card-image second" role="img" aria-label="Abstract purple colour block"></div>
+        <div class="card-image image-two" role="img" aria-label="Purple abstract colour block"></div>
         <span class="card-label">New</span>
-        <div class="card-content"><h2>Second card</h2><p>The card is the positioning context for its label.</p></div>
+        <div class="card-content">
+          <h2>Second card</h2>
+          <p>The card provides the positioning context for its label.</p>
+        </div>
       </article>
     </section>
-    <section id="about" class="extra"><h2>About this practical</h2><p>Scroll the page to see the sticky navigation in action.</p></section>
+
+    <section id="about" class="about">
+      <h2>About this practical</h2>
+      <p>Scroll the page to see the sticky navigation in action.</p>
+    </section>
   </main>
 </body>
 </html>
